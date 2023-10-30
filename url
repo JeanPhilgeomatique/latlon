@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire de Coordonnées</title>
+</head>
+<body>
+    <h1>Entrez vos coordonnées sur la carte</h1>
+    <div id="map" style="width: 400px; height: 300px;"></div>
+    <form id="coordForm" action="enregistrer_coordonnees.php" method="post">
+        Latitude: <input type="text" id="latitude" name="latitude"><br>
+        Longitude: <input type="text" id="longitude" name="longitude"><br>
+        <input type="submit" value="Enregistrer">
+    </form>
+
+    <script src="carte.js"></script>
+</body>
+</html>
